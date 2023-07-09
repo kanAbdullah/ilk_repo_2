@@ -34,28 +34,28 @@ class Issue {
 
 class JumpStreet {
     int homeNumber;
-    int resiliantNumber;
+    int residentNumber;
 
     JumpStreet(){}
     JumpStreet(int a,int b){
         this.homeNumber = a;
-        this.resiliantNumber = b;
+        this.residentNumber = b;
     }
 
     void explodeSmall(){
         homeNumber = homeNumber - 3;
-        resiliantNumber = resiliantNumber -15;
+        residentNumber = residentNumber -15;
     }
     void explodeMedium(){
         homeNumber = homeNumber - 6;
-        resiliantNumber = resiliantNumber -30;
+        residentNumber = residentNumber -30;
     }
     void explodeBig(){
         homeNumber = homeNumber - 9;
-        resiliantNumber = resiliantNumber -45;
+        residentNumber = residentNumber -45;
     }
     void littleBoy(){
         homeNumber = 0;
-        resiliantNumber = 0;
+        residentNumber = 0;
     }
 }
